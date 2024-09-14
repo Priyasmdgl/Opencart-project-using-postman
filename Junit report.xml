@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Opencart project" tests="5" time="0.000">
+  <testsuite name="token creation" id="e8244f29-1535-4d8c-8376-25d952391434" timestamp="2024-09-14T07:00:45.786Z" tests="3" failures="3" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 192.168.1.217:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TokenCreation">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: token creation.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.000" classname="TokenCreation">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: token creation.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.000" classname="TokenCreation">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: token creation.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got undefined
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="add to cart" id="fea66763-76dc-47a9-988e-797f34bd6d32" timestamp="2024-09-14T07:00:45.786Z" tests="3" failures="3" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 192.168.1.217:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="AddToCart">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: add to cart.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.000" classname="AddToCart">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: add to cart.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.000" classname="AddToCart">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: add to cart.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got undefined
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Get cart content" id="37749f99-ef3b-46f9-954a-1428cebc0c7b" timestamp="2024-09-14T07:00:45.786Z" tests="3" failures="3" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 192.168.1.217:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="GetCartContent">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Get cart content.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.000" classname="GetCartContent">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Get cart content.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.000" classname="GetCartContent">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Get cart content.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got undefined
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Edit cart content" id="f208eef1-059f-47d5-9b23-3cd1616cc3d4" timestamp="2024-09-14T07:00:45.786Z" tests="3" failures="3" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 192.168.1.217:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="EditCartContent">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Edit cart content.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.000" classname="EditCartContent">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Edit cart content.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.000" classname="EditCartContent">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Edit cart content.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got undefined
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Remove product from cart" id="a4e8ba44-7659-4eab-a714-31cdf0d3de2d" timestamp="2024-09-14T07:00:45.786Z" tests="3" failures="3" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 192.168.1.217:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="RemoveProductFromCart">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Remove product from cart.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.000" classname="RemoveProductFromCart">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Remove product from cart.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.000" classname="RemoveProductFromCart">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 779b859d-33f7-455b-aa56-0d3ce1f64556.]]>
+        <![CDATA[Collection name: Opencart project.]]>
+        <![CDATA[Request name: Remove product from cart.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got undefined
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
